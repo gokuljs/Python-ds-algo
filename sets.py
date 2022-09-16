@@ -1,0 +1,15 @@
+l=[1,1,1,1,1,2,3,4,56,6,77,7]
+s1=set(l)
+s2={11,2,23,41,100}
+print(s1)
+print(len(s1))
+s3=s1|s2
+print(s3)
+s3.add("gokul")
+print(s3)
+s3.discard("gokul")
+print(s3.intersection(s2))
+print(s3)
+print(s2)
+print(s3.symmetric_difference(s2))
+print(s2.difference(s3))
